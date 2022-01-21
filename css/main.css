@@ -1,0 +1,44 @@
+
+h1 {
+    background-image: linear-gradient(rgb(0, 89, 255) 35%, red);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+p{
+ color: rgb(46, 133, 161);
+}
+
+span {
+    color:rgb(236, 14, 225);
+    text-transform: uppercase;
+}
+ul {
+    list-style-type: none;
+    list-style-type: square;
+}
+ul li {
+    font-size: 20px;
+    font-style: italic;
+    text-decoration: underline;
+    text-decoration-color: rgb(102, 6, 119);
+    color:rgb(145, 85, 200);
+}
+hr {
+    max-width: 460px;
+    height: 10px;
+    margin-left: 0px;
+    background: linear-gradient(to right, rgb(250, 248, 248) , rgb(0, 38, 255), red);
+
+}
+.delivery {
+    background-image: linear-gradient(rgb(0, 89, 255) 35%, red);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 30px;
+}
+q{
+    text-transform: uppercase;
+    color:rgb(235, 13, 187);
+    text-decoration: underline;
+    text-decoration-color: rgb(47, 13, 199);
+}
