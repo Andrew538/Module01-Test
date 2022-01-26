@@ -45,10 +45,10 @@ ul {
     padding-left: 0;
     margin: 0;
 }
-ul>li {
+ul li {
     margin-right: 30px;
 }
-.nav-list__item>a {
+.nav-list__item a {
     text-decoration: none;
     color: rebeccapurple;
     
