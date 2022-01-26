@@ -45,13 +45,16 @@ ul {
     padding-left: 0;
     margin: 0;
 }
-ul li {
+ul>li {
     margin-right: 30px;
 }
-.nav-list__item a {
+.nav-list__item>a {
     text-decoration: none;
     color: rebeccapurple;
     
+}
+.nav-list li:last-child{
+    margin-right: 0;
 }
 .box {                                                                           
     display: flex;
@@ -67,6 +70,12 @@ section {
     background: lavender;
     padding: 5px 20px;
     margin-bottom: 20px;
+}
+.link {
+    background: rebeccapurple;
+    color:white;
+    padding: 8px 15px;
+    margin-left: 10px;
 }
 .post {
     padding-bottom: 20px;
